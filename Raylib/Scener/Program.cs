@@ -89,7 +89,7 @@ namespace Scener
                     Raylib.DrawTexture(fiendebild, (int)fiende.x, (int)fiende.y, Color.WHITE);
 
                     // Rita ut tiden
-                    Raylib.DrawText($"Tid {(int)sek45}", 600, 0, 50, Color.RED);
+                    Raylib.DrawText($"Tid {(int)sek45}", 600, 0, 50, Color.RAYWHITE);
 
                     // Räkna ned tiden kvar
                     sek45 -= Raylib.GetFrameTime();
