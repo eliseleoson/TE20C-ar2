@@ -41,7 +41,7 @@ namespace Dodgers
                 {
                     hastighet = 2;
                 }
-                if (tid == 25)
+                // if (tid == 25)
                 {
                     hastighet = 3;
                 }

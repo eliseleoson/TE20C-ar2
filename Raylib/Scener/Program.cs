@@ -43,7 +43,7 @@ namespace Scener
                 {
                     // Rita ut objekt
                     Raylib.DrawText(scen0, 10, 10, 50, Color.RED);
-                    Raylib.DrawText($"Poäng:{poäng}", 10,50,50, Color.RED);
+                    Raylib.DrawText($"Poäng:{poäng}", 10, 50, 50, Color.RED);
 
                     // Rita ut spelarna
                     Raylib.DrawTexture(spelarebild, (int)spelare.x, (int)spelare.y, Color.WHITE);
@@ -72,7 +72,7 @@ namespace Scener
                 {
                     // Rita ut objekt
                     Raylib.DrawText(scen1, 10, 10, 50, Color.RAYWHITE);
-                    Raylib.DrawText($"Poäng:{poäng}", 10,50,50, Color.RAYWHITE);
+                    Raylib.DrawText($"Poäng:{poäng}", 10, 50, 50, Color.RAYWHITE);
                     Raylib.ClearBackground(Color.BLUE);
 
                     // Kollision
